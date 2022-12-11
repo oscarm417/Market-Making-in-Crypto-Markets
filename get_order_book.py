@@ -33,7 +33,6 @@ class Orderbook():
         df['datetime'].dt.tz_convert("US/Eastern")
         df = df[['symbol','datetime','nonce','bid','bid-size','ask','ask-size']]
         df = df.drop_duplicates(subset=["nonce"],keep= "first")
-
         return df
     
     def get_level_two_ob(self,symbol:str,time_lapse: float )->pd.DataFrame:

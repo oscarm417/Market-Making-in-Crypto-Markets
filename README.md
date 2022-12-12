@@ -5,6 +5,7 @@ The flow of this projects:
       - Get order book data
       - Order Flow 
       - Avellaneda Strategy (Modified for crypto)
+  - Build a simulator with a Poisson distribution to simulate hits and lifts % as a function of a distance to mid price 
   - Python Code backtesting the best strategy determined from above 
   - C++ code that connects to crypto exchanges and makes a market
   - Python dashboard that observes the performance of the strategy live, as well as historical performance based on the log files produced above 
